@@ -29,20 +29,20 @@ if os.path.exists(PATH_OUTPUT_IMAGE) is True:
 os.mkdir(PATH_OUTPUT_IMAGE)
 
 # Set the format of input static images.
-FORMAT_INPUT_IMAGE = '.png'
+FORMAT_INPUT_IMAGE = '.jpg'
 
 # Set the name of output GIF images.
 GIF_NAME_SAME = "imgGIF_SAME.gif"
 GIF_NAME_DIFF = "imgGIF_DIFF.gif"
 
 # Set the duration of each frame in GIF images.
-DURATION_FRAME = 0.5
+DURATION_FRAME = 2
 
 # Set the repeat time of the first and the last frames in GIF images.
-REPEAT_TIMES_FRAME = 3
+REPEAT_TIMES_FRAME = 1
 
 # Set the pattern for creating GIF images.
-PATTERN = 1
+PATTERN = 2
 # Note:
 #     PATTERN = 1 - Create GIF image with each frame having the same duration time.
 #     PATTERN = 2 - Create GIF image with each frame having different duration time.
